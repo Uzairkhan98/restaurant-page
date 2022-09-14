@@ -1,0 +1,34 @@
+.content{
+    height: 100vh;
+    width: 100vw;
+    background-color: mediumseagreen;
+}
+
+.content img {
+    width: min(25rem, 90vw);
+    height: 10rem;
+}
+
+.header{
+    width: 100vw;
+    height: 13rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar{
+    margin-top: 2rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: 5rem;
+}
+
+.navBar h2:hover {
+    color: azure;
+    transform: translateY(-0.5rem);
+    transition-duration: 0.5s;
+}
