@@ -60,7 +60,7 @@ function changeTab(route, i){
 
     document.getElementById(`${pages[lastRoute]}`).remove()
     const section = route == 'home'? home 
-    : route == 'menu' ? menu : 
+    : route == 'menu' ? menu : contact
 
     section.classList.add('section')
     main.appendChild(section)
