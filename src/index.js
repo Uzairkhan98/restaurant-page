@@ -29,13 +29,18 @@ function navBar() {
 
     const pages = ['home', 'menu', 'contact']
 
-    pages.forEach( e => {
+    pages.forEach( (route, i) => {
         const Page = document.createElement("h2")
-        Page.innerText = e
+        Page.innerText = route
+        Page.addEventListener("click", () => changeTab(route, i))
         element.appendChild(Page)
     })
-
+    
     return element
+}
+
+function changeTab(route, i){
+    console.log(route, i)  
 }
 
 let main = content()
