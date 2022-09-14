@@ -1,0 +1,12 @@
+.timeTable{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+h3{
+    padding: 0px;
+    margin: 0px;
+}

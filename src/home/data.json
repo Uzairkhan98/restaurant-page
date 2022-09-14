@@ -1,0 +1,23 @@
+{
+    "title": "World of Waffles",
+    "description" : "A first of its kind waffle cafe offering a variety of gourmet and classic waffles for all your savory needs! Try out any of our ready to go waffles or otherwise make your own if that is more suited for your tastes!",
+    "timings": {
+        "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"   
+        ],
+        "hours": [
+            "8am - 8pm",
+            "12pm - 3am",
+            "4pm - 9pm",
+            "2pm - 3am",
+            "1pm - 1am",
+            "12pm - 4am"
+        ]
+    },
+    "location": "12th Wayward Road, Nutella street, Main Waffle Junction, Dessertland."
+}
