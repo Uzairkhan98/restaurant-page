@@ -9,6 +9,8 @@ function container() {
     const title = document.createElement('h2')
     title.innerText = 'Classic Waffles'
 
+    
+
     const gridElement = document.createElement('div')
     gridElement.classList.add('menuGrid')
 
@@ -20,8 +22,12 @@ function container() {
         const waffleTitle = document.createElement('h3')
         waffleTitle.innerText = item.title
 
+        const titleDiv = document.createElement('div')
+        titleDiv.classList.add('titleDiv')
+        titleDiv.appendChild(waffleTitle)
 
-        waffle.appendChild(waffleTitle)
+
+        waffle.appendChild(titleDiv)
         return waffle
     })
 

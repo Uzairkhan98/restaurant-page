@@ -3,7 +3,6 @@ import bounty from './Bounty.jpeg'
 import classic from "./Classic.jpeg"
 import dairy from "./Dairy.jpeg"
 import iceCream from "./ice_cream.jpg"
-import lotus from "./Lotus.jpeg"
 import nutella from "./Nutella.jpeg"
 import rocky from "./Rocky.jpeg"
 import savory from "./Savory.jpeg"
@@ -30,10 +29,6 @@ export default [
     {
         title: "Ice Cream",
         image: iceCream
-    },
-    {
-        title: "Lotus",
-        image: lotus
     },
     {
         title: "Nutella",
