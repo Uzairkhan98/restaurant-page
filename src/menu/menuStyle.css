@@ -1,5 +1,4 @@
-.menuPage h3,
-.menuPage h2{
+.menuPage h3{
     margin: 0px;
 }
 
@@ -12,7 +11,7 @@
 
 .waffle {
     background-size: cover;
-    height: max(150px,20vw);
+    height: max(225px,20vw);
     margin: 0px;
 }
 
