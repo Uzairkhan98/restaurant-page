@@ -1,0 +1,18 @@
+.menuPage h3,
+.menuPage h2{
+    margin: 0px;
+}
+
+.menuGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(max(150px, 20vw), 1fr));
+    gap: 3rem;
+    padding: 10px;
+    margin: 0px;
+}
+
+.waffle {
+    background-size: cover;
+    height: max(150px,20vw);
+    margin: 0px;
+}

@@ -1,6 +1,7 @@
 body{
     padding: 0%;
     margin: 0%;
+    overflow-x: hidden;
 }
 
 .content{
@@ -47,9 +48,11 @@ h2.active{
 }
 
 .section{
+    background-color:peru;
+    padding-top: 1rem;
     border: solid 2px black;
     border-radius: 10px;
-    width: min(80vw, 800px);
+    width: min(60vw, 800px);
     padding-inline: 2rem;
     padding-bottom: 2rem;
     margin-inline: auto;
