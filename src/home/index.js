@@ -17,8 +17,13 @@ function container() {
     data.timings.days.forEach(
         (day,i) => {
            let details = document.createElement('h3')
-            details.innerText = `${day} ${data.timings.hours[i]}`
+            details.innerText = `${day}`
+            
+            let dayTimings = document.createElement('h4')
+            dayTimings.innerText = `${data.timings.hours[i]}`
+
             schedule.appendChild(details)
+            schedule.appendChild(dayTimings)
         }
     )
 

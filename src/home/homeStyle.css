@@ -1,11 +1,12 @@
 .timeTable{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+    gap: 1.5rem;
+    margin-inline: auto;
 }
 
-.homePage h3{
+.homePage h3,
+.homePage h4{
     margin: 0px;
 }
