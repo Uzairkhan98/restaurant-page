@@ -1,5 +1,6 @@
 import data from './data.json'
 import './homeStyle.css'
+import waffle from './waffle-man.jpg'
 
 function container() {
     const element = document.createElement('div')
@@ -11,6 +12,14 @@ function container() {
 
     const description = document.createElement('h3')
     description.innerText = data.description
+
+    let flexContainer = document.createElement('div')
+    flexContainer.classList.add('flexContainer')
+
+    const waffleMan = new Image();
+    waffleMan.src = waffle
+
+    flexContainer.appendChild(waffleMan)
 
     let schedule = document.createElement('div')
     schedule.classList.add('timeTable')
@@ -26,10 +35,12 @@ function container() {
             schedule.appendChild(dayTimings)
         }
     )
-
+    
+    flexContainer.appendChild(schedule)
+    
     element.appendChild(title)
     element.appendChild(description)
-    element.appendChild(schedule)
+    element.appendChild(flexContainer)
 
     return element
 }

@@ -10,3 +10,16 @@
 .homePage h4{
     margin: 0px;
 }
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.flexContainer img{
+    width: min(60vw, 250px);
+    height: auto;
+}
