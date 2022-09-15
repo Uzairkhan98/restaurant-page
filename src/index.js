@@ -2,7 +2,7 @@ import './style.css'
 import logo from './wow-logo.png'
 import home from './home/index.js'
 import menu from './menu/index.js'
-
+import contact from './contact/index.js'
 
 function content() {
     const element = document.createElement('div');
